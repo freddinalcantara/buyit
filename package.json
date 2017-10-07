@@ -1,0 +1,23 @@
+{
+  "name": "buyit",
+  "version": "1.0.0",
+  "description": "simple e-commerce page",
+  "main": "server.js",
+  "scripts": {
+    "test": "runtest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddinalcantara/buyit.git"
+  },
+  "author": "Freddin Alcantara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freddinalcantara/buyit/issues"
+  },
+  "homepage": "https://github.com/freddinalcantara/buyit#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1"
+  }
+}
