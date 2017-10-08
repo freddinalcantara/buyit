@@ -16,7 +16,7 @@ app.set('views',path.resolve('../public/assest') );
 app.set('view engine', 'ejs');
 
 //set the static file for public use
-app.use(express.static('public'));
+app.use(express.static('../public'));
 
 app.use(bodyParser.json({
     limit: config.bodyLimit,

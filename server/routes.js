@@ -9,7 +9,8 @@ router.get('/hello',function(request,response){
 });
 
 router.get('/',function(request,response){
-     response.sendFile(path.resolve('../public/assest/index.html'));
+    //  response.sendFile(path.resolve('../public/assest/index.html'));
+    response.render(path.resolve('../public/assest/index'));
 })
 
 //always remenber to return a router to work!!
