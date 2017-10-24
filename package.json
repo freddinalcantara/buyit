@@ -4,7 +4,9 @@
   "description": "simple e-commerce page",
   "main": "server.js",
   "scripts": {
-    "test": "runtest"
+    "test": "runtest",
+    "start": "node server/server.js",
+    "start-dev": "nodemon server/server.js",
   },
   "repository": {
     "type": "git",
