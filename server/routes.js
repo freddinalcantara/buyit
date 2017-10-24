@@ -13,6 +13,14 @@ router.get('/',function(request,response){
     response.render(path.resolve('../public/assest/index'));
 })
 
+router.get('/about',function(request,response){
+    response.render(path.resolve('../public/assest/about'));
+})
+
+router.get('/home',function(request,response){
+    response.render(path.resolve('../public/assest/home'));
+})
+
 //always remenber to return a router to work!!
 return router;
 })();
