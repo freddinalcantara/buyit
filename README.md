@@ -4,7 +4,7 @@ Description: This is an E-commerce made to practice the popular framework Angula
 #### Table of Contents
 
 * [Technologies](#technologies)
-* [Instalation](#integration)
+* [Instalation](#instalation)
 * [Thats it?](#thats-it)
 * [Credits](#credits)
 
@@ -15,21 +15,21 @@ Description: This is an E-commerce made to practice the popular framework Angula
 
 ## Instalation
 
-* 1 clone the project
+1. Clone the project
 
-``` git clone git@github.com:freddinalcantara/buyit.git ```
+	``` git clone git@github.com:freddinalcantara/buyit.git ```
 
-* 2 install all the dependencies
+2. Install all the dependencies
 
-``` npm install ```
+	``` npm install ```
 
-* 3 start the project
+3. Start the project
 
-```npm start```
+	```npm start```
 
-* 4 open the project 
+4. Open the project 
 
-[localhost:8080](localhost:8080)
+	[http://localhost:8080/](http://localhost:8080/)
 
 
 ## Thats it
